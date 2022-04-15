@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="scripts/main.js"></script>
+    <link
+      rel="https://cdn.rawgit.com/mfd/7c7a915eb31474cc8c6a65066a4c4dc3/raw/f0f2fb94c21dea904812a53e0eb6cf0bc87f3754/GTWalsheimPro.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png" />
+    <link rel="manifest" href="./assets/site.webmanifest" />
+    <title>Weatherify</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header-text">Weatherify</h1>
+      <section class="inputs">
+        <form class="search-form">
+          <input
+            class="search"
+            type="text"
+            id="search"
+            autocomplete="off"
+            placeholder="Search for a city"
+            autofocus
+          />
+        </form>
+        <button class="current-location"></button>
+      </section>
+    </header>
+    <article class="container">
+      <div class="popup">
+        <ul class="search-list"></ul>
+      </div>
+      <div class="weather-condition"></div>
+      <div class="temperature"></div>
+      <h2 class="location"></h2>
+      <div class="last-updated-time"></div>
+      <div class="forecast-container">
+        <!-- <div class="forecast-item">
+          <div class="left-content">
+              <div class="day">Today</div>
+              <div class="weather-text">Clear</div>
+          </div>
+          <div class="right-content">
+            <div class="min-max-temp">
+              24
+              9
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </article>
+    <footer class="footer">
+      Randomly made by Abhinav
+      <div class="links">
+        <a href="https://github.com/abhinav-raman"> Github </a>
+        |
+        <a href="https://twitter.com/_abhinavraman"> Twitter </a>
+      </div>
+    </footer>
+  </body>
+</html>
